@@ -1,6 +1,10 @@
-# Nuxt 3 Minimal Starter
+# MasterLink Challange
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is the repository of the challenge that MasterLink has given to me and I did it using Nuxt, I had to do some google search since I haven't used Nuxt/Vue in a long time.
+
+## Screenshots
+
+![Web screenshot](/screenshot.png)
 
 ## Setup
 
