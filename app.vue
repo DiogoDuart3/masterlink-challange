@@ -16,7 +16,7 @@ const {
   pending,
   data: { value },
   error,
-} = await useFetch("https://masterlink-mock-api.mwe.pt/MlkApi/bpm_metadata/1", {
+} = await useFetch("https://masterlink-mock-api.mwe.pt/MlkApi/bpm_metadata/3", {
   lazy: true,
 });
 const metadata = value as Metadata;
@@ -41,6 +41,18 @@ function submit(e: Event) {
     >
       MasterLink challange
     </h1>
+    <div class="mt-6">
+      <h2>Input number limited (5+2)</h2>
+      <InputNumberLimited />
+    </div>
+    <div class="mt-6">
+      <h2>Input text as number limited (5+2)</h2>
+      <InputTextAsNumberLimited />
+    </div>
+    <div class="mt-6">
+      <h2>Navbar with limited items</h2>
+      <NavbarWithLimitedItems />
+    </div>
     <div class="mt-6">
       <div v-if="pending">
         <p>Loading...</p>
