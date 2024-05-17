@@ -39,7 +39,7 @@ function submit(e: Event) {
     <h1
       class="bg-gradient-to-br from-red-400 to-indigo-400 inline-block text-transparent bg-clip-text font-bold uppercase text-3xl w-full text-center"
     >
-      MasterLink challange
+      MasterLink challenge
     </h1>
     <div class="mt-6">
       <h2>Input number limited (5+2)</h2>
